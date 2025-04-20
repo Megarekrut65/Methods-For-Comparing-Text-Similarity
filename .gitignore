@@ -160,3 +160,4 @@ cython_debug/
 #.idea/
 MFCTS-Project/cc.uk.300.vec.gz
 /MFCTS-Project/uk_vectors
+PairGenerator/ignore.py
