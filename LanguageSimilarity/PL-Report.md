@@ -7,7 +7,7 @@
 | jaccard algorithm with stanza lematization | 0.00 | 59.67 | 20.31 |
 | sklearn vectorizer | 0.00 | 95.00 | 24.74 |
 | semantic similarity with spacy | 0.68 | 72.84 | 24.61 |
-| sentence transformers tensor with multilanguage vectors | 0.21 | 96.98 | 33.69 |
+| sentence transformers tensor with codebert | 0.21 | 96.98 | 33.69 |
 
 # Examples
 ## similar, with certain differences
@@ -23,7 +23,7 @@
 | jaccard algorithm with stanza lematization | 73.68% | 98.00% | 24.32 |
 | sklearn vectorizer | 50.31% | 98.00% | 47.69 |
 | semantic similarity with spacy | 76.10% | 98.00% | 21.90 |
-| sentence transformers tensor with multilanguage vectors | 99.08% | 98.00% | 1.08 |
+| sentence transformers tensor with codebert | 99.08% | 98.00% | 1.08 |
 
 ---
 
@@ -42,7 +42,7 @@ while i < 5:
 | jaccard algorithm with stanza lematization | 45.83% | 95.00% | 49.17 |
 | sklearn vectorizer | 22.03% | 95.00% | 72.97 |
 | semantic similarity with spacy | 70.98% | 95.00% | 24.02 |
-| sentence transformers tensor with multilanguage vectors | 92.73% | 95.00% | 2.27 |
+| sentence transformers tensor with codebert | 92.73% | 95.00% | 2.27 |
 
 ---
 
@@ -58,7 +58,7 @@ while i < 5:
 | jaccard algorithm with stanza lematization | 84.62% | 97.00% | 12.38 |
 | sklearn vectorizer | 70.93% | 97.00% | 26.07 |
 | semantic similarity with spacy | 91.93% | 97.00% | 5.07 |
-| sentence transformers tensor with multilanguage vectors | 98.33% | 97.00% | 1.33 |
+| sentence transformers tensor with codebert | 98.33% | 97.00% | 1.33 |
 
 ---
 
@@ -74,7 +74,7 @@ while i < 5:
 | jaccard algorithm with stanza lematization | 71.43% | 96.00% | 24.57 |
 | sklearn vectorizer | 51.01% | 96.00% | 44.99 |
 | semantic similarity with spacy | 80.03% | 96.00% | 15.97 |
-| sentence transformers tensor with multilanguage vectors | 97.60% | 96.00% | 1.60 |
+| sentence transformers tensor with codebert | 97.60% | 96.00% | 1.60 |
 
 ---
 
@@ -90,7 +90,7 @@ while i < 5:
 | jaccard algorithm with stanza lematization | 80.00% | 98.00% | 18.00 |
 | sklearn vectorizer | 100.00% | 98.00% | 2.00 |
 | semantic similarity with spacy | 86.83% | 98.00% | 11.17 |
-| sentence transformers tensor with multilanguage vectors | 97.74% | 98.00% | 0.26 |
+| sentence transformers tensor with codebert | 97.74% | 98.00% | 0.26 |
 
 ---
 
@@ -106,7 +106,7 @@ while i < 5:
 | jaccard algorithm with stanza lematization | 66.67% | 92.00% | 25.33 |
 | sklearn vectorizer | 41.12% | 92.00% | 50.88 |
 | semantic similarity with spacy | 67.02% | 92.00% | 24.98 |
-| sentence transformers tensor with multilanguage vectors | 96.79% | 92.00% | 4.79 |
+| sentence transformers tensor with codebert | 96.79% | 92.00% | 4.79 |
 
 ---
 
@@ -124,7 +124,7 @@ b = temp
 | jaccard algorithm with stanza lematization | 40.00% | 95.00% | 55.00 |
 | sklearn vectorizer | 0.00% | 95.00% | 95.00 |
 | semantic similarity with spacy | 79.58% | 95.00% | 15.42 |
-| sentence transformers tensor with multilanguage vectors | 94.79% | 95.00% | 0.21 |
+| sentence transformers tensor with codebert | 94.79% | 95.00% | 0.21 |
 
 ---
 
@@ -143,7 +143,7 @@ return count
 | jaccard algorithm with stanza lematization | 33.33% | 93.00% | 59.67 |
 | sklearn vectorizer | 12.16% | 93.00% | 80.84 |
 | semantic similarity with spacy | 65.39% | 93.00% | 27.61 |
-| sentence transformers tensor with multilanguage vectors | 94.11% | 93.00% | 1.11 |
+| sentence transformers tensor with codebert | 94.11% | 93.00% | 1.11 |
 
 ---
 
@@ -163,7 +163,7 @@ except Exception:
 | jaccard algorithm with stanza lematization | 78.95% | 90.00% | 11.05 |
 | sklearn vectorizer | 77.65% | 90.00% | 12.35 |
 | semantic similarity with spacy | 98.87% | 90.00% | 8.87 |
-| sentence transformers tensor with multilanguage vectors | 98.63% | 90.00% | 8.63 |
+| sentence transformers tensor with codebert | 98.63% | 90.00% | 8.63 |
 
 ---
 
@@ -181,7 +181,7 @@ f.close()
 | jaccard algorithm with stanza lematization | 79.17% | 91.00% | 11.83 |
 | sklearn vectorizer | 63.28% | 91.00% | 27.72 |
 | semantic similarity with spacy | 94.80% | 91.00% | 3.80 |
-| sentence transformers tensor with multilanguage vectors | 98.96% | 91.00% | 7.96 |
+| sentence transformers tensor with codebert | 98.96% | 91.00% | 7.96 |
 
 ---
 
@@ -198,7 +198,7 @@ f.close()
 | jaccard algorithm with stanza lematization | 0.00% | 0.00% | 0.00 |
 | sklearn vectorizer | 0.00% | 0.00% | 0.00 |
 | semantic similarity with spacy | 50.48% | 0.00% | 50.48 |
-| sentence transformers tensor with multilanguage vectors | 93.41% | 0.00% | 93.41 |
+| sentence transformers tensor with codebert | 93.41% | 0.00% | 93.41 |
 
 ---
 
@@ -214,7 +214,7 @@ f.close()
 | jaccard algorithm with stanza lematization | 42.11% | 0.00% | 42.11 |
 | sklearn vectorizer | 0.00% | 0.00% | 0.00 |
 | semantic similarity with spacy | 61.04% | 0.00% | 61.04 |
-| sentence transformers tensor with multilanguage vectors | 95.08% | 0.00% | 95.08 |
+| sentence transformers tensor with codebert | 95.08% | 0.00% | 95.08 |
 
 ---
 
@@ -230,7 +230,7 @@ f.close()
 | jaccard algorithm with stanza lematization | 12.50% | 0.00% | 12.50 |
 | sklearn vectorizer | 0.00% | 0.00% | 0.00 |
 | semantic similarity with spacy | 27.07% | 0.00% | 27.07 |
-| sentence transformers tensor with multilanguage vectors | 87.01% | 0.00% | 87.01 |
+| sentence transformers tensor with codebert | 87.01% | 0.00% | 87.01 |
 
 ---
 
@@ -247,7 +247,7 @@ except: pass
 | jaccard algorithm with stanza lematization | 31.82% | 0.00% | 31.82 |
 | sklearn vectorizer | 20.20% | 0.00% | 20.20 |
 | semantic similarity with spacy | 71.18% | 0.00% | 71.18 |
-| sentence transformers tensor with multilanguage vectors | 94.40% | 0.00% | 94.40 |
+| sentence transformers tensor with codebert | 94.40% | 0.00% | 94.40 |
 
 ---
 
@@ -263,7 +263,7 @@ except: pass
 | jaccard algorithm with stanza lematization | 26.09% | 0.00% | 26.09 |
 | sklearn vectorizer | 0.00% | 0.00% | 0.00 |
 | semantic similarity with spacy | 72.84% | 0.00% | 72.84 |
-| sentence transformers tensor with multilanguage vectors | 94.63% | 0.00% | 94.63 |
+| sentence transformers tensor with codebert | 94.63% | 0.00% | 94.63 |
 
 ---
 
@@ -279,7 +279,7 @@ except: pass
 | jaccard algorithm with stanza lematization | 0.00% | 5.00% | 5.00 |
 | sklearn vectorizer | 0.00% | 5.00% | 5.00 |
 | semantic similarity with spacy | 44.22% | 5.00% | 39.22 |
-| sentence transformers tensor with multilanguage vectors | 91.45% | 5.00% | 86.45 |
+| sentence transformers tensor with codebert | 91.45% | 5.00% | 86.45 |
 
 ---
 
@@ -295,7 +295,7 @@ except: pass
 | jaccard algorithm with stanza lematization | 22.22% | 0.00% | 22.22 |
 | sklearn vectorizer | 0.00% | 0.00% | 0.00 |
 | semantic similarity with spacy | 60.25% | 0.00% | 60.25 |
-| sentence transformers tensor with multilanguage vectors | 96.98% | 0.00% | 96.98 |
+| sentence transformers tensor with codebert | 96.98% | 0.00% | 96.98 |
 
 ---
 
@@ -311,7 +311,7 @@ except: pass
 | jaccard algorithm with stanza lematization | 16.00% | 0.00% | 16.00 |
 | sklearn vectorizer | 0.00% | 0.00% | 0.00 |
 | semantic similarity with spacy | 50.77% | 0.00% | 50.77 |
-| sentence transformers tensor with multilanguage vectors | 93.78% | 0.00% | 93.78 |
+| sentence transformers tensor with codebert | 93.78% | 0.00% | 93.78 |
 
 ---
 
@@ -327,7 +327,7 @@ except: pass
 | jaccard algorithm with stanza lematization | 13.04% | 0.00% | 13.04 |
 | sklearn vectorizer | 0.00% | 0.00% | 0.00 |
 | semantic similarity with spacy | 44.61% | 0.00% | 44.61 |
-| sentence transformers tensor with multilanguage vectors | 95.61% | 0.00% | 95.61 |
+| sentence transformers tensor with codebert | 95.61% | 0.00% | 95.61 |
 
 ---
 
@@ -343,7 +343,7 @@ except: pass
 | jaccard algorithm with stanza lematization | 30.43% | 10.00% | 20.43 |
 | sklearn vectorizer | 0.00% | 10.00% | 10.00 |
 | semantic similarity with spacy | 36.13% | 10.00% | 26.13 |
-| sentence transformers tensor with multilanguage vectors | 91.52% | 10.00% | 81.52 |
+| sentence transformers tensor with codebert | 91.52% | 10.00% | 81.52 |
 
 ---
 
@@ -360,7 +360,7 @@ except: pass
 | jaccard algorithm with stanza lematization | 88.24% | 90.00% | 1.76 |
 | sklearn vectorizer | 60.30% | 90.00% | 29.70 |
 | semantic similarity with spacy | 100.00% | 90.00% | 10.00 |
-| sentence transformers tensor with multilanguage vectors | 99.92% | 90.00% | 9.92 |
+| sentence transformers tensor with codebert | 99.92% | 90.00% | 9.92 |
 
 ---
 
@@ -376,7 +376,7 @@ except: pass
 | jaccard algorithm with stanza lematization | 87.50% | 90.00% | 2.50 |
 | sklearn vectorizer | 73.21% | 90.00% | 16.79 |
 | semantic similarity with spacy | 90.68% | 90.00% | 0.68 |
-| sentence transformers tensor with multilanguage vectors | 99.02% | 90.00% | 9.02 |
+| sentence transformers tensor with codebert | 99.02% | 90.00% | 9.02 |
 
 ---
 
@@ -395,7 +395,7 @@ else:
 | jaccard algorithm with stanza lematization | 88.89% | 85.00% | 3.89 |
 | sklearn vectorizer | 94.87% | 85.00% | 9.87 |
 | semantic similarity with spacy | 96.47% | 85.00% | 11.47 |
-| sentence transformers tensor with multilanguage vectors | 97.19% | 85.00% | 12.19 |
+| sentence transformers tensor with codebert | 97.19% | 85.00% | 12.19 |
 
 ---
 
@@ -411,7 +411,7 @@ else:
 | jaccard algorithm with stanza lematization | 92.86% | 80.00% | 12.86 |
 | sklearn vectorizer | 77.65% | 80.00% | 2.35 |
 | semantic similarity with spacy | 97.34% | 80.00% | 17.34 |
-| sentence transformers tensor with multilanguage vectors | 94.80% | 80.00% | 14.80 |
+| sentence transformers tensor with codebert | 94.80% | 80.00% | 14.80 |
 
 ---
 
@@ -427,7 +427,7 @@ else:
 | jaccard algorithm with stanza lematization | 59.26% | 90.00% | 30.74 |
 | sklearn vectorizer | 25.23% | 90.00% | 64.77 |
 | semantic similarity with spacy | 83.56% | 90.00% | 6.44 |
-| sentence transformers tensor with multilanguage vectors | 94.76% | 90.00% | 4.76 |
+| sentence transformers tensor with codebert | 94.76% | 90.00% | 4.76 |
 
 ---
 
@@ -446,7 +446,7 @@ else:
 | jaccard algorithm with stanza lematization | 80.95% | 95.00% | 14.05 |
 | sklearn vectorizer | 84.66% | 95.00% | 10.34 |
 | semantic similarity with spacy | 87.81% | 95.00% | 7.19 |
-| sentence transformers tensor with multilanguage vectors | 98.96% | 95.00% | 3.96 |
+| sentence transformers tensor with codebert | 98.96% | 95.00% | 3.96 |
 
 ---
 
@@ -462,7 +462,7 @@ else:
 | jaccard algorithm with stanza lematization | 70.59% | 96.00% | 25.41 |
 | sklearn vectorizer | 50.31% | 96.00% | 45.69 |
 | semantic similarity with spacy | 100.00% | 96.00% | 4.00 |
-| sentence transformers tensor with multilanguage vectors | 98.94% | 96.00% | 2.94 |
+| sentence transformers tensor with codebert | 98.94% | 96.00% | 2.94 |
 
 ---
 
@@ -481,7 +481,7 @@ else:
 | jaccard algorithm with stanza lematization | 86.67% | 98.00% | 11.33 |
 | sklearn vectorizer | 94.28% | 98.00% | 3.72 |
 | semantic similarity with spacy | 95.93% | 98.00% | 2.07 |
-| sentence transformers tensor with multilanguage vectors | 97.59% | 98.00% | 0.41 |
+| sentence transformers tensor with codebert | 97.59% | 98.00% | 0.41 |
 
 ---
 
@@ -497,7 +497,7 @@ else:
 | jaccard algorithm with stanza lematization | 100.00% | 95.00% | 5.00 |
 | sklearn vectorizer | 94.87% | 95.00% | 0.13 |
 | semantic similarity with spacy | 97.69% | 95.00% | 2.69 |
-| sentence transformers tensor with multilanguage vectors | 97.85% | 95.00% | 2.85 |
+| sentence transformers tensor with codebert | 97.85% | 95.00% | 2.85 |
 
 ---
 
@@ -513,7 +513,7 @@ else:
 | jaccard algorithm with stanza lematization | 73.68% | 95.00% | 21.32 |
 | sklearn vectorizer | 31.88% | 95.00% | 63.12 |
 | semantic similarity with spacy | 80.82% | 95.00% | 14.18 |
-| sentence transformers tensor with multilanguage vectors | 96.71% | 95.00% | 1.71 |
+| sentence transformers tensor with codebert | 96.71% | 95.00% | 1.71 |
 
 ---
 

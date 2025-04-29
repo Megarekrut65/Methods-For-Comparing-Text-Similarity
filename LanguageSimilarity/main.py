@@ -6,7 +6,7 @@ from app.utility.report_maker import save_report_md, save_table_md
 from app.utility.tests_runner import run_tests
 
 def save_all(data, algos, texts, prefix):
-    save_report_md(algos, texts, data, f"{prefix}-README.md")
+    save_report_md(algos, texts, data, f"{prefix}-Report.md")
     save_table_md(algos, texts,f"{prefix}-SimilarityTable.md",
                   lambda text1, text2, expected, algo:f"{data[(algo, text1, text2)]:.2f}%")
     save_table_md(algos, texts,f"{prefix}-ExpectedTable.md",

@@ -11,5 +11,5 @@ ALGOS = {
     "jaccard algorithm with stanza lematization":sj.get_similarity,
     "sklearn vectorizer":s_vec.get_similarity,
     "semantic similarity with spacy":s_nlp.get_similarity,
-    "sentence transformers tensor with multilanguage vectors":stt.get_similarity,
+    "sentence transformers tensor with codebert":stt.get_similarity,
 }

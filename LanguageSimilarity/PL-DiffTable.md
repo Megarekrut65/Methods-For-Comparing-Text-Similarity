@@ -9,7 +9,7 @@
     <th>jaccard algorithm with stanza lematization</th>
     <th>sklearn vectorizer</th>
     <th>semantic similarity with spacy</th>
-    <th>sentence transformers tensor with multilanguage vectors</th>
+    <th>sentence transformers tensor with codebert</th>
   </tr>
   <tr>
     <td><pre><code>def sum(a, b): return a + b</code></pre><pre><code>def add(x, y): return x + y</code></pre></td>
@@ -127,7 +127,7 @@ f.close()</code></pre></td>
     <th>jaccard algorithm with stanza lematization</th>
     <th>sklearn vectorizer</th>
     <th>semantic similarity with spacy</th>
-    <th>sentence transformers tensor with multilanguage vectors</th>
+    <th>sentence transformers tensor with codebert</th>
   </tr>
   <tr>
     <td><pre><code>print('Hello')</code></pre><pre><code>x = 5 * 7</code></pre></td>
@@ -232,7 +232,7 @@ except: pass</code></pre></td>
     <th>jaccard algorithm with stanza lematization</th>
     <th>sklearn vectorizer</th>
     <th>semantic similarity with spacy</th>
-    <th>sentence transformers tensor with multilanguage vectors</th>
+    <th>sentence transformers tensor with codebert</th>
   </tr>
   <tr>
     <td><pre><code>def greet(): print('Hi')</code></pre><pre><code>def greet(): print('Hello')</code></pre></td>
