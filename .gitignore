@@ -171,3 +171,4 @@ LanguageSimilarity/cc.uk.300.vec.gz
 /LanguageSimilarity/Models
 /LanguageSimilarity/uk_vectors
 /CodePairGenerator/.idea
+/LanguageSimilarity/ModelLearning/checkpoints
