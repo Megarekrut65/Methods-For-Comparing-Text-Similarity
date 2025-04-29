@@ -166,3 +166,7 @@ PairGenerator/ignore.py
 NaturalLanguageSimilarity/cc.uk.300.vec.gz
 /NaturalLanguageSimilarity/Models
 /NaturalLanguageSimilarity/uk_vectors
+/LanguageSimilarity/.idea
+LanguageSimilarity/cc.uk.300.vec.gz
+/LanguageSimilarity/Models
+/LanguageSimilarity/uk_vectors
