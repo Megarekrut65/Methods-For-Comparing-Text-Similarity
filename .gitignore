@@ -162,3 +162,7 @@ MFCTS-Project/cc.uk.300.vec.gz
 /MFCTS-Project/uk_vectors
 PairGenerator/ignore.py
 /MFCTS-Project/Models
+/NaturalLanguageSimilarity/.idea
+NaturalLanguageSimilarity/cc.uk.300.vec.gz
+/NaturalLanguageSimilarity/Models
+/NaturalLanguageSimilarity/uk_vectors
