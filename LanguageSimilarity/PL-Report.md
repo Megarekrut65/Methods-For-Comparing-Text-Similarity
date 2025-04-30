@@ -4,6 +4,7 @@
 |-----------|----------|----------|----------|
 | abstract syntax tree | 0.00 | 90.00 | 37.07 |
 | context free grammar | 0.00 | 90.00 | 37.07 |
+| vectorizer with codebert | 0.00 | 97.00 | 33.70 |
 
 # Examples
 ## similar, with certain differences
@@ -16,6 +17,7 @@
 |-----------|------------|----------|------|
 | abstract syntax tree | 100.00% | 98.00% | 2.00 |
 | context free grammar | 100.00% | 98.00% | 2.00 |
+| vectorizer with codebert | 99.00% | 98.00% | 1.00 |
 
 ---
 
@@ -31,6 +33,7 @@ while i < 5:
 |-----------|------------|----------|------|
 | abstract syntax tree | 5.00% | 95.00% | 90.00 |
 | context free grammar | 5.00% | 95.00% | 90.00 |
+| vectorizer with codebert | 93.00% | 95.00% | 2.00 |
 
 ---
 
@@ -43,6 +46,7 @@ while i < 5:
 |-----------|------------|----------|------|
 | abstract syntax tree | 33.00% | 97.00% | 64.00 |
 | context free grammar | 33.00% | 97.00% | 64.00 |
+| vectorizer with codebert | 98.00% | 97.00% | 1.00 |
 
 ---
 
@@ -55,6 +59,7 @@ while i < 5:
 |-----------|------------|----------|------|
 | abstract syntax tree | 50.00% | 96.00% | 46.00 |
 | context free grammar | 50.00% | 96.00% | 46.00 |
+| vectorizer with codebert | 98.00% | 96.00% | 2.00 |
 
 ---
 
@@ -67,6 +72,7 @@ while i < 5:
 |-----------|------------|----------|------|
 | abstract syntax tree | 80.00% | 98.00% | 18.00 |
 | context free grammar | 80.00% | 98.00% | 18.00 |
+| vectorizer with codebert | 98.00% | 98.00% | 0.00 |
 
 ---
 
@@ -79,6 +85,7 @@ while i < 5:
 |-----------|------------|----------|------|
 | abstract syntax tree | 73.00% | 92.00% | 19.00 |
 | context free grammar | 73.00% | 92.00% | 19.00 |
+| vectorizer with codebert | 97.00% | 92.00% | 5.00 |
 
 ---
 
@@ -93,6 +100,7 @@ b = temp
 |-----------|------------|----------|------|
 | abstract syntax tree | 50.00% | 95.00% | 45.00 |
 | context free grammar | 50.00% | 95.00% | 45.00 |
+| vectorizer with codebert | 95.00% | 95.00% | 0.00 |
 
 ---
 
@@ -108,6 +116,7 @@ return count
 |-----------|------------|----------|------|
 | abstract syntax tree | 11.00% | 93.00% | 82.00 |
 | context free grammar | 11.00% | 93.00% | 82.00 |
+| vectorizer with codebert | 94.00% | 93.00% | 1.00 |
 
 ---
 
@@ -124,6 +133,7 @@ except Exception:
 |-----------|------------|----------|------|
 | abstract syntax tree | 50.00% | 90.00% | 40.00 |
 | context free grammar | 50.00% | 90.00% | 40.00 |
+| vectorizer with codebert | 99.00% | 90.00% | 9.00 |
 
 ---
 
@@ -138,6 +148,7 @@ f.close()
 |-----------|------------|----------|------|
 | abstract syntax tree | 18.00% | 91.00% | 73.00 |
 | context free grammar | 18.00% | 91.00% | 73.00 |
+| vectorizer with codebert | 99.00% | 91.00% | 8.00 |
 
 ---
 
@@ -151,6 +162,7 @@ f.close()
 |-----------|------------|----------|------|
 | abstract syntax tree | 12.00% | 0.00% | 12.00 |
 | context free grammar | 12.00% | 0.00% | 12.00 |
+| vectorizer with codebert | 93.00% | 0.00% | 93.00 |
 
 ---
 
@@ -163,6 +175,7 @@ f.close()
 |-----------|------------|----------|------|
 | abstract syntax tree | 8.00% | 0.00% | 8.00 |
 | context free grammar | 8.00% | 0.00% | 8.00 |
+| vectorizer with codebert | 95.00% | 0.00% | 95.00 |
 
 ---
 
@@ -175,6 +188,7 @@ f.close()
 |-----------|------------|----------|------|
 | abstract syntax tree | 11.00% | 0.00% | 11.00 |
 | context free grammar | 11.00% | 0.00% | 11.00 |
+| vectorizer with codebert | 87.00% | 0.00% | 87.00 |
 
 ---
 
@@ -188,6 +202,7 @@ except: pass
 |-----------|------------|----------|------|
 | abstract syntax tree | 9.00% | 0.00% | 9.00 |
 | context free grammar | 9.00% | 0.00% | 9.00 |
+| vectorizer with codebert | 94.00% | 0.00% | 94.00 |
 
 ---
 
@@ -200,6 +215,7 @@ except: pass
 |-----------|------------|----------|------|
 | abstract syntax tree | 38.00% | 0.00% | 38.00 |
 | context free grammar | 38.00% | 0.00% | 38.00 |
+| vectorizer with codebert | 95.00% | 0.00% | 95.00 |
 
 ---
 
@@ -212,6 +228,7 @@ except: pass
 |-----------|------------|----------|------|
 | abstract syntax tree | 11.00% | 5.00% | 6.00 |
 | context free grammar | 11.00% | 5.00% | 6.00 |
+| vectorizer with codebert | 91.00% | 5.00% | 86.00 |
 
 ---
 
@@ -224,6 +241,7 @@ except: pass
 |-----------|------------|----------|------|
 | abstract syntax tree | 14.00% | 0.00% | 14.00 |
 | context free grammar | 14.00% | 0.00% | 14.00 |
+| vectorizer with codebert | 97.00% | 0.00% | 97.00 |
 
 ---
 
@@ -236,6 +254,7 @@ except: pass
 |-----------|------------|----------|------|
 | abstract syntax tree | 14.00% | 0.00% | 14.00 |
 | context free grammar | 14.00% | 0.00% | 14.00 |
+| vectorizer with codebert | 94.00% | 0.00% | 94.00 |
 
 ---
 
@@ -248,6 +267,7 @@ except: pass
 |-----------|------------|----------|------|
 | abstract syntax tree | 10.00% | 0.00% | 10.00 |
 | context free grammar | 10.00% | 0.00% | 10.00 |
+| vectorizer with codebert | 96.00% | 0.00% | 96.00 |
 
 ---
 
@@ -260,6 +280,7 @@ except: pass
 |-----------|------------|----------|------|
 | abstract syntax tree | 10.00% | 10.00% | 0.00 |
 | context free grammar | 10.00% | 10.00% | 0.00 |
+| vectorizer with codebert | 92.00% | 10.00% | 82.00 |
 
 ---
 
@@ -273,6 +294,7 @@ except: pass
 |-----------|------------|----------|------|
 | abstract syntax tree | 100.00% | 90.00% | 10.00 |
 | context free grammar | 100.00% | 90.00% | 10.00 |
+| vectorizer with codebert | 100.00% | 90.00% | 10.00 |
 
 ---
 
@@ -285,6 +307,7 @@ except: pass
 |-----------|------------|----------|------|
 | abstract syntax tree | 44.00% | 90.00% | 46.00 |
 | context free grammar | 44.00% | 90.00% | 46.00 |
+| vectorizer with codebert | 99.00% | 90.00% | 9.00 |
 
 ---
 
@@ -300,6 +323,7 @@ else:
 |-----------|------------|----------|------|
 | abstract syntax tree | 18.00% | 85.00% | 67.00 |
 | context free grammar | 18.00% | 85.00% | 67.00 |
+| vectorizer with codebert | 97.00% | 85.00% | 12.00 |
 
 ---
 
@@ -312,6 +336,7 @@ else:
 |-----------|------------|----------|------|
 | abstract syntax tree | 57.00% | 80.00% | 23.00 |
 | context free grammar | 57.00% | 80.00% | 23.00 |
+| vectorizer with codebert | 95.00% | 80.00% | 15.00 |
 
 ---
 
@@ -324,6 +349,7 @@ else:
 |-----------|------------|----------|------|
 | abstract syntax tree | 28.00% | 90.00% | 62.00 |
 | context free grammar | 28.00% | 90.00% | 62.00 |
+| vectorizer with codebert | 95.00% | 90.00% | 5.00 |
 
 ---
 
@@ -339,6 +365,7 @@ else:
 |-----------|------------|----------|------|
 | abstract syntax tree | 15.00% | 95.00% | 80.00 |
 | context free grammar | 15.00% | 95.00% | 80.00 |
+| vectorizer with codebert | 99.00% | 95.00% | 4.00 |
 
 ---
 
@@ -351,6 +378,7 @@ else:
 |-----------|------------|----------|------|
 | abstract syntax tree | 100.00% | 96.00% | 4.00 |
 | context free grammar | 100.00% | 96.00% | 4.00 |
+| vectorizer with codebert | 99.00% | 96.00% | 3.00 |
 
 ---
 
@@ -366,6 +394,7 @@ else:
 |-----------|------------|----------|------|
 | abstract syntax tree | 33.00% | 98.00% | 65.00 |
 | context free grammar | 33.00% | 98.00% | 65.00 |
+| vectorizer with codebert | 98.00% | 98.00% | 0.00 |
 
 ---
 
@@ -378,6 +407,7 @@ else:
 |-----------|------------|----------|------|
 | abstract syntax tree | 20.00% | 95.00% | 75.00 |
 | context free grammar | 20.00% | 95.00% | 75.00 |
+| vectorizer with codebert | 98.00% | 95.00% | 3.00 |
 
 ---
 
@@ -390,6 +420,7 @@ else:
 |-----------|------------|----------|------|
 | abstract syntax tree | 16.00% | 95.00% | 79.00 |
 | context free grammar | 16.00% | 95.00% | 79.00 |
+| vectorizer with codebert | 97.00% | 95.00% | 2.00 |
 
 ---
 
