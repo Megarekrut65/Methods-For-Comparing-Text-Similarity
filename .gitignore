@@ -172,3 +172,5 @@ LanguageSimilarity/cc.uk.300.vec.gz
 /LanguageSimilarity/uk_vectors
 /CodePairGenerator/.idea
 /LanguageSimilarity/ModelLearning/checkpoints
+/LanguageSimilarity/ModelLearning/lightning_logs
+/LanguageSimilarity/ModelLearning/Models
