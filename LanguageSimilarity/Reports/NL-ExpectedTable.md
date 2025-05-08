@@ -1,17 +1,132 @@
 
+**SIMPLE EXAMPLES**
+
+<table>
+  <tr>
+    <th>Text pairs</th>
+    <th>gestalt pattern matching</th>
+    <th>jaccard similarity</th>
+    <th>sklearn vectorizer</th>
+    <th>spacy semantic similarity</th>
+    <th>multilingual similarity model (paraphrase-multilingual-MiniLM-L12-v2)</th>
+    <th>ukr Multilingual similarity model (ukr-paraphrase-multilingual-mpnet-base)</th>
+    <th>scratch similarity model</th>
+    <th>fine tuned similarity model (paraphrase-multilingual-MiniLM-L12-v2)</th>
+  </tr>
+  <tr>
+    <td><pre><code>Інформатика</code></pre><pre><code>Інформатика</code></pre></td>
+    <td>100.00%</td>
+    <td>100.00%</td>
+    <td>100.00%</td>
+    <td>100.00%</td>
+    <td>100.00%</td>
+    <td>100.00%</td>
+    <td>100.00%</td>
+    <td>100.00%</td>
+  </tr>
+  <tr>
+    <td><pre><code>Математика</code></pre><pre><code>Матаметика</code></pre></td>
+    <td>98.00%</td>
+    <td>98.00%</td>
+    <td>98.00%</td>
+    <td>98.00%</td>
+    <td>98.00%</td>
+    <td>98.00%</td>
+    <td>98.00%</td>
+    <td>98.00%</td>
+  </tr>
+  <tr>
+    <td><pre><code>Формула для розрахунку</code></pre><pre><code>Розрахункова формула</code></pre></td>
+    <td>100.00%</td>
+    <td>100.00%</td>
+    <td>100.00%</td>
+    <td>100.00%</td>
+    <td>100.00%</td>
+    <td>100.00%</td>
+    <td>100.00%</td>
+    <td>100.00%</td>
+  </tr>
+  <tr>
+    <td><pre><code>Вчений знайшов неймовірний збіг</code></pre><pre><code>Неймовірний збіг був знайдений вченим</code></pre></td>
+    <td>100.00%</td>
+    <td>100.00%</td>
+    <td>100.00%</td>
+    <td>100.00%</td>
+    <td>100.00%</td>
+    <td>100.00%</td>
+    <td>100.00%</td>
+    <td>100.00%</td>
+  </tr>
+  <tr>
+    <td><pre><code>Додаток</code></pre><pre><code>Застосунок</code></pre></td>
+    <td>95.00%</td>
+    <td>95.00%</td>
+    <td>95.00%</td>
+    <td>95.00%</td>
+    <td>95.00%</td>
+    <td>95.00%</td>
+    <td>95.00%</td>
+    <td>95.00%</td>
+  </tr>
+  <tr>
+    <td><pre><code>Розробник</code></pre><pre><code>Програміст</code></pre></td>
+    <td>95.00%</td>
+    <td>95.00%</td>
+    <td>95.00%</td>
+    <td>95.00%</td>
+    <td>95.00%</td>
+    <td>95.00%</td>
+    <td>95.00%</td>
+    <td>95.00%</td>
+  </tr>
+  <tr>
+    <td><pre><code>Дослідження</code></pre><pre><code>Бінарне дерево</code></pre></td>
+    <td>0.00%</td>
+    <td>0.00%</td>
+    <td>0.00%</td>
+    <td>0.00%</td>
+    <td>0.00%</td>
+    <td>0.00%</td>
+    <td>0.00%</td>
+    <td>0.00%</td>
+  </tr>
+  <tr>
+    <td><pre><code>Застосунок</code></pre><pre><code>Рисунок</code></pre></td>
+    <td>0.00%</td>
+    <td>0.00%</td>
+    <td>0.00%</td>
+    <td>0.00%</td>
+    <td>0.00%</td>
+    <td>0.00%</td>
+    <td>0.00%</td>
+    <td>0.00%</td>
+  </tr>
+  <tr>
+    <td><pre><code>Твердження було доведене</code></pre><pre><code>Розробник створив застосунок</code></pre></td>
+    <td>0.00%</td>
+    <td>0.00%</td>
+    <td>0.00%</td>
+    <td>0.00%</td>
+    <td>0.00%</td>
+    <td>0.00%</td>
+    <td>0.00%</td>
+    <td>0.00%</td>
+  </tr>
+</table>
+
 **SIMILAR, WITH CERTAIN DIFFERENCES**
 
 <table>
   <tr>
     <th>Text pairs</th>
     <th>gestalt pattern matching</th>
-    <th>gestalt pattern matching from difflib</th>
-    <th>jaccard algorithm with stanza lematization</th>
+    <th>jaccard similarity</th>
     <th>sklearn vectorizer</th>
-    <th>semantic similarity with spacy</th>
-    <th>sentence transformers tensor with multilanguage vectors</th>
-    <th>sentence transformers tensor with ukrainian vectors</th>
-    <th>fine tuned similarity model</th>
+    <th>spacy semantic similarity</th>
+    <th>multilingual similarity model (paraphrase-multilingual-MiniLM-L12-v2)</th>
+    <th>ukr Multilingual similarity model (ukr-paraphrase-multilingual-mpnet-base)</th>
+    <th>scratch similarity model</th>
+    <th>fine tuned similarity model (paraphrase-multilingual-MiniLM-L12-v2)</th>
   </tr>
   <tr>
     <td><pre><code>Йшла мати в магазин по печиво.</code></pre><pre><code>Мама йшла до магазину за печивом.</code></pre></td>
@@ -131,13 +246,13 @@
   <tr>
     <th>Text pairs</th>
     <th>gestalt pattern matching</th>
-    <th>gestalt pattern matching from difflib</th>
-    <th>jaccard algorithm with stanza lematization</th>
+    <th>jaccard similarity</th>
     <th>sklearn vectorizer</th>
-    <th>semantic similarity with spacy</th>
-    <th>sentence transformers tensor with multilanguage vectors</th>
-    <th>sentence transformers tensor with ukrainian vectors</th>
-    <th>fine tuned similarity model</th>
+    <th>spacy semantic similarity</th>
+    <th>multilingual similarity model (paraphrase-multilingual-MiniLM-L12-v2)</th>
+    <th>ukr Multilingual similarity model (ukr-paraphrase-multilingual-mpnet-base)</th>
+    <th>scratch similarity model</th>
+    <th>fine tuned similarity model (paraphrase-multilingual-MiniLM-L12-v2)</th>
   </tr>
   <tr>
     <td><pre><code>На кухні пахло свіжим хлібом.</code></pre><pre><code>Собака гавкав на місяць усю ніч.</code></pre></td>
@@ -257,13 +372,13 @@
   <tr>
     <th>Text pairs</th>
     <th>gestalt pattern matching</th>
-    <th>gestalt pattern matching from difflib</th>
-    <th>jaccard algorithm with stanza lematization</th>
+    <th>jaccard similarity</th>
     <th>sklearn vectorizer</th>
-    <th>semantic similarity with spacy</th>
-    <th>sentence transformers tensor with multilanguage vectors</th>
-    <th>sentence transformers tensor with ukrainian vectors</th>
-    <th>fine tuned similarity model</th>
+    <th>spacy semantic similarity</th>
+    <th>multilingual similarity model (paraphrase-multilingual-MiniLM-L12-v2)</th>
+    <th>ukr Multilingual similarity model (ukr-paraphrase-multilingual-mpnet-base)</th>
+    <th>scratch similarity model</th>
+    <th>fine tuned similarity model (paraphrase-multilingual-MiniLM-L12-v2)</th>
   </tr>
   <tr>
     <td><pre><code>Він заснув під час фільму.</code></pre><pre><code>Поки йшло кіно, він задрімав.</code></pre></td>
