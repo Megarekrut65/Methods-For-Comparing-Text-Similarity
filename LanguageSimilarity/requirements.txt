@@ -6,5 +6,8 @@ tensorflow==2.19.0
 pandas==2.2.3
 keras==3.9.2
 datasets==3.5.0
-torch~=2.6.0
 transformers~=4.51.3
+torch~=2.5.1+cu121
+zss~=1.2.0
+pytorch-lightning~=2.5.1.post0
+joblib~=1.4.2

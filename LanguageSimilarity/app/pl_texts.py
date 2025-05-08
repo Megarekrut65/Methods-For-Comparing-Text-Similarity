@@ -38,8 +38,16 @@ SAME_SENSE = [
     ("if x in [1,2,3]: print(x)", "if x == 1 or x == 2 or x == 3: print(x)", 95)
 ]
 
+SIMPLE = [
+    ("def sum(a, b): return a + b", "def add(x, y): return x + y", 100),
+    ("if x == True: return 1", "if x: return 1", 97),
+    ("print('Hello')", "x = 5 * 7", 0),
+    ("x = 5\ny = x - 3\nz = y * 4", "x = 5\ny = x * 4\nz = y - 3", 40),
+]
+
 TEXTS = {
-"similar, with certain differences": SIMILAR,
-"completely different": DIFFERENT,
-"different, but with a common meaning": SAME_SENSE
+    "simple":SIMPLE,
+    "similar, with certain differences": SIMILAR,
+    "completely different": DIFFERENT,
+    "different, but with a common meaning": SAME_SENSE
 }

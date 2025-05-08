@@ -48,7 +48,6 @@ def save_table_md(algos, texts, filename, content_func):
         lines.append("  </tr>\n")
 
         for text1, text2, expected in pairs:
-            # Форматування коду HTML'ем
             pair_display = (
                 f"<pre><code>{text1}</code></pre>"
                 f"<pre><code>{text2}</code></pre>"

@@ -1,12 +1,12 @@
-from itertools import combinations
+
 
 import pandas as pd
+from random import choice
 
 from code_changer import rename_code
 
 
-def generate_similar_code(input_csv):
-    df = pd.read_csv(input_csv)
+def generate_similar_code(df):
     result = []
 
     for idx, row in df.iterrows():
@@ -17,35 +17,24 @@ def generate_similar_code(input_csv):
         code2 = rename_code(code1)
         if code1 != code2:
             result.append({
-                "text1": code1,
-                "text2": code2,
-                "similarity": 1.0
+                "anchor": code1,
+                "positive": code2
             })
 
     return result
 
-def generate_code_pairs(input_csv):
+def read_codes(input_csv):
     df = pd.read_csv(input_csv)
-    codes = df["chosen"].dropna().astype(str).tolist()
-
-    results = []
-
-    for code1, code2 in combinations(codes, 2):
-        print(code1, code2)
-        similarity = input("Enter similarity: ")
-        results.append({
-            "text1": code1.strip(),
-            "text2": code2.strip(),
-            "similarity": similarity
-        })
-
-    return results
+    return df.dropna()
 
 if __name__ == "__main__":
-    res1 = generate_similar_code("Files/dataset.csv")
-    res2 = generate_code_pairs("Files/dataset.csv")
+    df = read_codes("Files/dataset.csv")
+    res1 = generate_similar_code(df)
 
-    res = res1 + res2
+    codes = df["chosen"].astype(str).tolist()
+    for item in res1:
+        rand = choice(codes)
+        item["negative"] = rand
 
-    df = pd.DataFrame(res)
-    df.to_csv("Files/pairs.csv", index=False)
+    df = pd.DataFrame(res1)
+    df.to_csv("Files/3pairs.csv", index=False)
